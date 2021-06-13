@@ -71,7 +71,7 @@ class S(BaseHTTPRequestHandler):
             s = json.dumps(dataDict,indent=4, sort_keys=True)
         else:
             s = "Not Json data:\n"+post_data
-        print s
+        print(s)
         
         self._set_headers()
         
